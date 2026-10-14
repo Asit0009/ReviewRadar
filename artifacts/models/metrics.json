@@ -1,0 +1,777 @@
+{
+  "split_info": {
+    "source_rows": 29946,
+    "total_deduplicated_samples": 29313,
+    "test_ids_md5": "a71fe5565f7e361be7bb3a22c0dadad6",
+    "split_strategy": "StratifiedGroupKFold by user_id (7 folds: 1 test, 1 validation, rest train)",
+    "train_samples": 20995,
+    "val_samples": 4098,
+    "test_samples": 4220,
+    "train_pct": 71.6,
+    "val_pct": 14.0,
+    "test_pct": 14.4,
+    "train_reviewers": 12194,
+    "val_reviewers": 2437,
+    "test_reviewers": 2496,
+    "reviewers_shared_between_splits": 0,
+    "random_state": 42,
+    "class_distribution_train": {
+      "positive": 15995,
+      "negative": 3466,
+      "neutral": 1534
+    },
+    "class_distribution_val": {
+      "positive": 3086,
+      "negative": 724,
+      "neutral": 288
+    },
+    "class_distribution_test": {
+      "positive": 3221,
+      "negative": 725,
+      "neutral": 274
+    }
+  },
+  "models": {
+    "logistic_regression": {
+      "validation": {
+        "accuracy": 0.8265,
+        "macro_f1": 0.6323,
+        "weighted_f1": 0.8335,
+        "negative_f1": 0.7001,
+        "neutral_f1": 0.2805,
+        "positive_f1": 0.9164,
+        "negative_precision": 0.6866,
+        "neutral_precision": 0.25,
+        "positive_precision": 0.9332,
+        "negative_recall": 0.7141,
+        "neutral_recall": 0.3194,
+        "positive_recall": 0.9002,
+        "macro_precision": 0.6232,
+        "macro_recall": 0.6446,
+        "confusion_matrix": [
+          [
+            517,
+            106,
+            101
+          ],
+          [
+            98,
+            92,
+            98
+          ],
+          [
+            138,
+            170,
+            2778
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.8393,
+        "macro_f1": 0.644,
+        "weighted_f1": 0.8453,
+        "negative_f1": 0.7118,
+        "neutral_f1": 0.2984,
+        "positive_f1": 0.9219,
+        "negative_precision": 0.6863,
+        "neutral_precision": 0.2708,
+        "positive_precision": 0.9394,
+        "negative_recall": 0.7393,
+        "neutral_recall": 0.3321,
+        "positive_recall": 0.905,
+        "macro_precision": 0.6322,
+        "macro_recall": 0.6588,
+        "confusion_matrix": [
+          [
+            536,
+            100,
+            89
+          ],
+          [
+            84,
+            91,
+            99
+          ],
+          [
+            161,
+            145,
+            2915
+          ]
+        ]
+      },
+      "hyperparameters": {
+        "C": 4.0,
+        "class_weight": "balanced",
+        "search": [
+          {
+            "C": 0.015625,
+            "validation_macro_f1": 0.6006
+          },
+          {
+            "C": 0.03125,
+            "validation_macro_f1": 0.603
+          },
+          {
+            "C": 0.0625,
+            "validation_macro_f1": 0.6138
+          },
+          {
+            "C": 0.25,
+            "validation_macro_f1": 0.6275
+          },
+          {
+            "C": 1.0,
+            "validation_macro_f1": 0.6302
+          },
+          {
+            "C": 4.0,
+            "validation_macro_f1": 0.6323
+          },
+          {
+            "C": 16.0,
+            "validation_macro_f1": 0.6204
+          }
+        ]
+      }
+    },
+    "linear_svc": {
+      "validation": {
+        "accuracy": 0.8511,
+        "macro_f1": 0.6328,
+        "weighted_f1": 0.8443,
+        "negative_f1": 0.7218,
+        "neutral_f1": 0.248,
+        "positive_f1": 0.9287,
+        "negative_precision": 0.7326,
+        "neutral_precision": 0.2925,
+        "positive_precision": 0.9145,
+        "negative_recall": 0.7113,
+        "neutral_recall": 0.2153,
+        "positive_recall": 0.9433,
+        "macro_precision": 0.6465,
+        "macro_recall": 0.6233,
+        "confusion_matrix": [
+          [
+            515,
+            72,
+            137
+          ],
+          [
+            91,
+            62,
+            135
+          ],
+          [
+            97,
+            78,
+            2911
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.8621,
+        "macro_f1": 0.6319,
+        "weighted_f1": 0.8528,
+        "negative_f1": 0.7343,
+        "neutral_f1": 0.2288,
+        "positive_f1": 0.9326,
+        "negative_precision": 0.7348,
+        "neutral_precision": 0.3067,
+        "positive_precision": 0.9169,
+        "negative_recall": 0.7338,
+        "neutral_recall": 0.1825,
+        "positive_recall": 0.9488,
+        "macro_precision": 0.6528,
+        "macro_recall": 0.6217,
+        "confusion_matrix": [
+          [
+            532,
+            58,
+            135
+          ],
+          [
+            82,
+            50,
+            142
+          ],
+          [
+            110,
+            55,
+            3056
+          ]
+        ]
+      },
+      "hyperparameters": {
+        "C": 0.25,
+        "class_weight": "balanced",
+        "search": [
+          {
+            "C": 0.015625,
+            "validation_macro_f1": 0.5834
+          },
+          {
+            "C": 0.03125,
+            "validation_macro_f1": 0.6231
+          },
+          {
+            "C": 0.0625,
+            "validation_macro_f1": 0.6307
+          },
+          {
+            "C": 0.25,
+            "validation_macro_f1": 0.6328
+          },
+          {
+            "C": 1.0,
+            "validation_macro_f1": 0.6277
+          },
+          {
+            "C": 4.0,
+            "validation_macro_f1": 0.6161
+          },
+          {
+            "C": 16.0,
+            "validation_macro_f1": 0.5934
+          }
+        ]
+      }
+    },
+    "distilbert": {
+      "model_name": "distilbert-base-uncased",
+      "validation": {
+        "accuracy": 0.8667,
+        "macro_f1": 0.6919,
+        "weighted_f1": 0.8751,
+        "negative_f1": 0.7992,
+        "neutral_f1": 0.3333,
+        "positive_f1": 0.9432,
+        "negative_precision": 0.8023,
+        "neutral_precision": 0.2857,
+        "positive_precision": 0.9606,
+        "negative_recall": 0.7962,
+        "neutral_recall": 0.4,
+        "positive_recall": 0.9265,
+        "macro_precision": 0.6828,
+        "macro_recall": 0.7076,
+        "confusion_matrix": [
+          [
+            211,
+            41,
+            13
+          ],
+          [
+            33,
+            42,
+            30
+          ],
+          [
+            19,
+            64,
+            1047
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.8853,
+        "macro_f1": 0.7158,
+        "weighted_f1": 0.8909,
+        "negative_f1": 0.8039,
+        "neutral_f1": 0.3906,
+        "positive_f1": 0.953,
+        "negative_precision": 0.8107,
+        "neutral_precision": 0.3435,
+        "positive_precision": 0.9644,
+        "negative_recall": 0.7972,
+        "neutral_recall": 0.4526,
+        "positive_recall": 0.9419,
+        "macro_precision": 0.7062,
+        "macro_recall": 0.7306,
+        "confusion_matrix": [
+          [
+            578,
+            100,
+            47
+          ],
+          [
+            85,
+            124,
+            65
+          ],
+          [
+            50,
+            137,
+            3034
+          ]
+        ]
+      },
+      "evaluated_on": {
+        "validation_samples": 1500,
+        "test_samples": 4220
+      },
+      "training": {
+        "base_model": "distilbert-base-uncased",
+        "device": "cpu",
+        "train_samples": 6000,
+        "train_split_size": 20995,
+        "epochs": 2,
+        "batch_size": 8,
+        "gradient_accumulation_steps": 2,
+        "max_length": 128,
+        "learning_rate": 3e-05,
+        "class_weighted_loss": true,
+        "frozen_word_embeddings": true,
+        "loss_per_epoch": [
+          0.7121,
+          0.4719
+        ],
+        "training_seconds": 6553.9
+      },
+      "trained_at": "2026-10-12T06:56:07+00:00",
+      "artifacts_saved_to": "artifacts/models/distilbert_sentiment"
+    }
+  },
+  "per_category": {
+    "logistic_regression": {
+      "Automotive": {
+        "test_samples": 398,
+        "class_support": {
+          "negative": 65,
+          "neutral": 26,
+          "positive": 307
+        },
+        "reliable": true,
+        "accuracy": 0.8392,
+        "macro_f1": 0.6308,
+        "negative_f1": 0.6892,
+        "neutral_f1": 0.28,
+        "positive_f1": 0.9231
+      },
+      "Beauty_and_Personal_Care": {
+        "test_samples": 428,
+        "class_support": {
+          "negative": 77,
+          "neutral": 28,
+          "positive": 323
+        },
+        "reliable": true,
+        "accuracy": 0.8224,
+        "macro_f1": 0.5945,
+        "negative_f1": 0.6755,
+        "neutral_f1": 0.1875,
+        "positive_f1": 0.9204
+      },
+      "Cell_Phones_and_Accessories": {
+        "test_samples": 422,
+        "class_support": {
+          "negative": 82,
+          "neutral": 23,
+          "positive": 317
+        },
+        "reliable": true,
+        "accuracy": 0.8483,
+        "macro_f1": 0.6611,
+        "negative_f1": 0.7574,
+        "neutral_f1": 0.3077,
+        "positive_f1": 0.9181
+      },
+      "Electronics": {
+        "test_samples": 412,
+        "class_support": {
+          "negative": 70,
+          "neutral": 18,
+          "positive": 324
+        },
+        "reliable": false,
+        "accuracy": 0.8762,
+        "macro_f1": 0.6937,
+        "negative_f1": 0.806,
+        "neutral_f1": 0.3396,
+        "positive_f1": 0.9356,
+        "note": "At least one class has fewer than 20 test reviews, so these scores can swing a lot and should not be compared across categories."
+      },
+      "Health_and_Household": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 74,
+          "neutral": 25,
+          "positive": 311
+        },
+        "reliable": true,
+        "accuracy": 0.8073,
+        "macro_f1": 0.6038,
+        "negative_f1": 0.64,
+        "neutral_f1": 0.2712,
+        "positive_f1": 0.9002
+      },
+      "Home_and_Kitchen": {
+        "test_samples": 393,
+        "class_support": {
+          "negative": 61,
+          "neutral": 28,
+          "positive": 304
+        },
+        "reliable": true,
+        "accuracy": 0.855,
+        "macro_f1": 0.654,
+        "negative_f1": 0.7023,
+        "neutral_f1": 0.3214,
+        "positive_f1": 0.9382
+      },
+      "Office_Products": {
+        "test_samples": 437,
+        "class_support": {
+          "negative": 70,
+          "neutral": 37,
+          "positive": 330
+        },
+        "reliable": true,
+        "accuracy": 0.8009,
+        "macro_f1": 0.5754,
+        "negative_f1": 0.65,
+        "neutral_f1": 0.1667,
+        "positive_f1": 0.9097
+      },
+      "Pet_Supplies": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 72,
+          "neutral": 23,
+          "positive": 315
+        },
+        "reliable": true,
+        "accuracy": 0.8244,
+        "macro_f1": 0.6261,
+        "negative_f1": 0.6974,
+        "neutral_f1": 0.2712,
+        "positive_f1": 0.9097
+      },
+      "Sports_and_Outdoors": {
+        "test_samples": 435,
+        "class_support": {
+          "negative": 60,
+          "neutral": 30,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.8667,
+        "macro_f1": 0.7113,
+        "negative_f1": 0.7231,
+        "neutral_f1": 0.4776,
+        "positive_f1": 0.9331
+      },
+      "Toys_and_Games": {
+        "test_samples": 475,
+        "class_support": {
+          "negative": 94,
+          "neutral": 36,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.8526,
+        "macro_f1": 0.6872,
+        "negative_f1": 0.7735,
+        "neutral_f1": 0.359,
+        "positive_f1": 0.9291
+      }
+    },
+    "linear_svc": {
+      "Automotive": {
+        "test_samples": 398,
+        "class_support": {
+          "negative": 65,
+          "neutral": 26,
+          "positive": 307
+        },
+        "reliable": true,
+        "accuracy": 0.8668,
+        "macro_f1": 0.6259,
+        "negative_f1": 0.7299,
+        "neutral_f1": 0.2105,
+        "positive_f1": 0.9372
+      },
+      "Beauty_and_Personal_Care": {
+        "test_samples": 428,
+        "class_support": {
+          "negative": 77,
+          "neutral": 28,
+          "positive": 323
+        },
+        "reliable": true,
+        "accuracy": 0.8411,
+        "macro_f1": 0.6024,
+        "negative_f1": 0.6667,
+        "neutral_f1": 0.2174,
+        "positive_f1": 0.9231
+      },
+      "Cell_Phones_and_Accessories": {
+        "test_samples": 422,
+        "class_support": {
+          "negative": 82,
+          "neutral": 23,
+          "positive": 317
+        },
+        "reliable": true,
+        "accuracy": 0.8555,
+        "macro_f1": 0.6362,
+        "negative_f1": 0.7296,
+        "neutral_f1": 0.2564,
+        "positive_f1": 0.9226
+      },
+      "Electronics": {
+        "test_samples": 412,
+        "class_support": {
+          "negative": 70,
+          "neutral": 18,
+          "positive": 324
+        },
+        "reliable": false,
+        "accuracy": 0.8932,
+        "macro_f1": 0.6664,
+        "negative_f1": 0.8148,
+        "neutral_f1": 0.2424,
+        "positive_f1": 0.9421,
+        "note": "At least one class has fewer than 20 test reviews, so these scores can swing a lot and should not be compared across categories."
+      },
+      "Health_and_Household": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 74,
+          "neutral": 25,
+          "positive": 311
+        },
+        "reliable": true,
+        "accuracy": 0.839,
+        "macro_f1": 0.596,
+        "negative_f1": 0.662,
+        "neutral_f1": 0.2105,
+        "positive_f1": 0.9156
+      },
+      "Home_and_Kitchen": {
+        "test_samples": 393,
+        "class_support": {
+          "negative": 61,
+          "neutral": 28,
+          "positive": 304
+        },
+        "reliable": true,
+        "accuracy": 0.8779,
+        "macro_f1": 0.6568,
+        "negative_f1": 0.7559,
+        "neutral_f1": 0.2667,
+        "positive_f1": 0.9479
+      },
+      "Office_Products": {
+        "test_samples": 437,
+        "class_support": {
+          "negative": 70,
+          "neutral": 37,
+          "positive": 330
+        },
+        "reliable": true,
+        "accuracy": 0.8375,
+        "macro_f1": 0.5686,
+        "negative_f1": 0.702,
+        "neutral_f1": 0.0714,
+        "positive_f1": 0.9325
+      },
+      "Pet_Supplies": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 72,
+          "neutral": 23,
+          "positive": 315
+        },
+        "reliable": true,
+        "accuracy": 0.861,
+        "macro_f1": 0.6379,
+        "negative_f1": 0.7361,
+        "neutral_f1": 0.25,
+        "positive_f1": 0.9277
+      },
+      "Sports_and_Outdoors": {
+        "test_samples": 435,
+        "class_support": {
+          "negative": 60,
+          "neutral": 30,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.8828,
+        "macro_f1": 0.6608,
+        "negative_f1": 0.7619,
+        "neutral_f1": 0.2791,
+        "positive_f1": 0.9415
+      },
+      "Toys_and_Games": {
+        "test_samples": 475,
+        "class_support": {
+          "negative": 94,
+          "neutral": 36,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.8674,
+        "macro_f1": 0.6749,
+        "negative_f1": 0.7845,
+        "neutral_f1": 0.3051,
+        "positive_f1": 0.9352
+      }
+    },
+    "distilbert": {
+      "Automotive": {
+        "test_samples": 398,
+        "class_support": {
+          "negative": 65,
+          "neutral": 26,
+          "positive": 307
+        },
+        "reliable": true,
+        "accuracy": 0.8819,
+        "macro_f1": 0.6912,
+        "negative_f1": 0.7704,
+        "neutral_f1": 0.3448,
+        "positive_f1": 0.9585
+      },
+      "Beauty_and_Personal_Care": {
+        "test_samples": 428,
+        "class_support": {
+          "negative": 77,
+          "neutral": 28,
+          "positive": 323
+        },
+        "reliable": true,
+        "accuracy": 0.8925,
+        "macro_f1": 0.7264,
+        "negative_f1": 0.7639,
+        "neutral_f1": 0.4478,
+        "positive_f1": 0.9674
+      },
+      "Cell_Phones_and_Accessories": {
+        "test_samples": 422,
+        "class_support": {
+          "negative": 82,
+          "neutral": 23,
+          "positive": 317
+        },
+        "reliable": true,
+        "accuracy": 0.8839,
+        "macro_f1": 0.7052,
+        "negative_f1": 0.8153,
+        "neutral_f1": 0.3438,
+        "positive_f1": 0.9567
+      },
+      "Electronics": {
+        "test_samples": 412,
+        "class_support": {
+          "negative": 70,
+          "neutral": 18,
+          "positive": 324
+        },
+        "reliable": false,
+        "accuracy": 0.9053,
+        "macro_f1": 0.7323,
+        "negative_f1": 0.8676,
+        "neutral_f1": 0.3704,
+        "positive_f1": 0.959,
+        "note": "At least one class has fewer than 20 test reviews, so these scores can swing a lot and should not be compared across categories."
+      },
+      "Health_and_Household": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 74,
+          "neutral": 25,
+          "positive": 311
+        },
+        "reliable": true,
+        "accuracy": 0.8488,
+        "macro_f1": 0.668,
+        "negative_f1": 0.8133,
+        "neutral_f1": 0.2687,
+        "positive_f1": 0.9221
+      },
+      "Home_and_Kitchen": {
+        "test_samples": 393,
+        "class_support": {
+          "negative": 61,
+          "neutral": 28,
+          "positive": 304
+        },
+        "reliable": true,
+        "accuracy": 0.8906,
+        "macro_f1": 0.6959,
+        "negative_f1": 0.8,
+        "neutral_f1": 0.3273,
+        "positive_f1": 0.9604
+      },
+      "Office_Products": {
+        "test_samples": 437,
+        "class_support": {
+          "negative": 70,
+          "neutral": 37,
+          "positive": 330
+        },
+        "reliable": true,
+        "accuracy": 0.8833,
+        "macro_f1": 0.7333,
+        "negative_f1": 0.8169,
+        "neutral_f1": 0.4304,
+        "positive_f1": 0.9525
+      },
+      "Pet_Supplies": {
+        "test_samples": 410,
+        "class_support": {
+          "negative": 72,
+          "neutral": 23,
+          "positive": 315
+        },
+        "reliable": true,
+        "accuracy": 0.8683,
+        "macro_f1": 0.6685,
+        "negative_f1": 0.731,
+        "neutral_f1": 0.3333,
+        "positive_f1": 0.941
+      },
+      "Sports_and_Outdoors": {
+        "test_samples": 435,
+        "class_support": {
+          "negative": 60,
+          "neutral": 30,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.9126,
+        "macro_f1": 0.7648,
+        "negative_f1": 0.8548,
+        "neutral_f1": 0.4762,
+        "positive_f1": 0.9634
+      },
+      "Toys_and_Games": {
+        "test_samples": 475,
+        "class_support": {
+          "negative": 94,
+          "neutral": 36,
+          "positive": 345
+        },
+        "reliable": true,
+        "accuracy": 0.8842,
+        "macro_f1": 0.753,
+        "negative_f1": 0.8111,
+        "neutral_f1": 0.5,
+        "positive_f1": 0.9478
+      }
+    }
+  },
+  "trained_at": "2026-10-12T04:13:07+00:00",
+  "updated_at": "2026-10-12T06:56:07+00:00",
+  "training_seconds": 150.8,
+  "vectorizer": {
+    "max_features": 25000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true,
+    "min_df": 3,
+    "vocabulary_size": 25000
+  }
+}

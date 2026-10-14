@@ -1,0 +1,47 @@
+{
+  "split": {
+    "train": 20995,
+    "test": 4220,
+    "split_strategy": "StratifiedGroupKFold by user_id (7 folds: 1 test, 1 validation, rest train)"
+  },
+  "test_reviews_with_automatic_title": 377,
+  "test_reviews_with_automatic_title_pct": 8.9,
+  "regularisation_C": {
+    "logistic_regression": 4.0,
+    "linear_svc": 0.25
+  },
+  "results": [
+    {
+      "text": "leaky (automatic title kept)",
+      "model": "logistic_regression",
+      "accuracy": 0.8389,
+      "macro_f1": 0.6366,
+      "accuracy_on_reviews_with_automatic_title": 0.8462,
+      "accuracy_on_other_reviews": 0.8381
+    },
+    {
+      "text": "leaky (automatic title kept)",
+      "model": "linear_svc",
+      "accuracy": 0.8649,
+      "macro_f1": 0.6367,
+      "accuracy_on_reviews_with_automatic_title": 0.8939,
+      "accuracy_on_other_reviews": 0.8621
+    },
+    {
+      "text": "clean (automatic title removed)",
+      "model": "logistic_regression",
+      "accuracy": 0.8393,
+      "macro_f1": 0.644,
+      "accuracy_on_reviews_with_automatic_title": 0.8223,
+      "accuracy_on_other_reviews": 0.841
+    },
+    {
+      "text": "clean (automatic title removed)",
+      "model": "linear_svc",
+      "accuracy": 0.8621,
+      "macro_f1": 0.6319,
+      "accuracy_on_reviews_with_automatic_title": 0.8568,
+      "accuracy_on_other_reviews": 0.8626
+    }
+  ]
+}

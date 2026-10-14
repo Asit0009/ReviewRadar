@@ -1,0 +1,844 @@
+{
+  "n_topics": 20,
+  "total_reviews": 29946,
+  "tagged_reviews": 28702,
+  "trained_at": "2026-10-12T04:40:18+00:00",
+  "params": {
+    "max_features": 8000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 20,
+    "max_df": 0.5,
+    "nmf_init": "nndsvda",
+    "min_words_to_fit": 8,
+    "reviews_used_to_fit": 23576
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "label": "General use and results (mixed products)",
+      "auto_label": "Using & Long & Worked",
+      "named_by": "reviewed",
+      "top_words": [
+        "using",
+        "long",
+        "worked",
+        "water",
+        "far",
+        "years",
+        "smell",
+        "months",
+        "new",
+        "box"
+      ],
+      "sample_reviews": [
+        "My K-Beauty Routine. At 32 I had stubborn hormonal acne and dry flaky skin (thanks in part to the dry climate in Colorado) I was tired of constantly fighting my skin and embarked on a journey to get the clear youthful...",
+        "These bottles are magical!. Recently I had a very traumatizing experience with bottled water - sayin traumatizing is an exaggeration but it really was an eye-opener For years I've been buying cases and cases of bottled..."
+      ],
+      "prevalence_count": 5692,
+      "prevalence_pct": 19.83
+    },
+    {
+      "topic_id": 1,
+      "label": "Phone cases",
+      "auto_label": "Case & Durable & Iphone",
+      "named_by": "reviewed",
+      "top_words": [
+        "case",
+        "phone case",
+        "durable",
+        "iphone",
+        "protection",
+        "sturdy",
+        "cases",
+        "case fits",
+        "case phone",
+        "protective"
+      ],
+      "sample_reviews": [
+        "great case. great case my fiance was delighted when i got it for him.",
+        "Awesome case. Love this case very functional and design is great I highly recommend this case"
+      ],
+      "prevalence_count": 888,
+      "prevalence_pct": 3.09
+    },
+    {
+      "topic_id": 2,
+      "label": "Easy to install and use",
+      "auto_label": "Easy & Install & Clean",
+      "named_by": "reviewed",
+      "top_words": [
+        "easy",
+        "install",
+        "easy install",
+        "clean",
+        "easy clean",
+        "assemble",
+        "easy assemble",
+        "easy set",
+        "instructions",
+        "sturdy"
+      ],
+      "sample_reviews": [
+        "Great product. Love this and it is easy to use once you get accustomed to it",
+        "Works great!!. Really easy to install , just need to take your time !"
+      ],
+      "prevalence_count": 1908,
+      "prevalence_pct": 6.65
+    },
+    {
+      "topic_id": 3,
+      "label": "Quality (good or poor)",
+      "auto_label": "Quality & High & Poor",
+      "named_by": "reviewed",
+      "top_words": [
+        "quality",
+        "high quality",
+        "high",
+        "quality price",
+        "poor",
+        "poor quality",
+        "sound",
+        "cheap",
+        "sound quality",
+        "price quality"
+      ],
+      "sample_reviews": [
+        "Great quality cutters. These cutters are of AMAZING quality. I have boughten several Ann Clark cutters and i have never been disappointed.",
+        "Great quality. These are wonderful. We ordered for graduation announcements and are so pleased at the quality of them."
+      ],
+      "prevalence_count": 1620,
+      "prevalence_pct": 5.64
+    },
+    {
+      "topic_id": 4,
+      "label": "Perfect size and fit",
+      "auto_label": "Perfect & Fits & Size",
+      "named_by": "reviewed",
+      "top_words": [
+        "perfect",
+        "perfect size",
+        "perfect fit",
+        "fits",
+        "size",
+        "fits perfect",
+        "fit perfect",
+        "soft",
+        "perfect gift",
+        "perfect exactly"
+      ],
+      "sample_reviews": [
+        "Perfect!. What's to say? they are so good I am going to buy another set!",
+        "Perfect. Very good smell and perfect for the winter! Price really good also!"
+      ],
+      "prevalence_count": 1369,
+      "prevalence_pct": 4.77
+    },
+    {
+      "topic_id": 5,
+      "label": "Hair and skin care",
+      "auto_label": "Hair & Brush & Shampoo",
+      "named_by": "reviewed",
+      "top_words": [
+        "hair",
+        "brush",
+        "shampoo",
+        "dry",
+        "soft",
+        "conditioner",
+        "skin",
+        "makes",
+        "curly",
+        "feel"
+      ],
+      "sample_reviews": [
+        "Your hair will feel more controllable. I use this when I have in braids or faux locs and it always grows my hair.",
+        "Perfect braid hair. This hair looks great, I love the color. The bundles of hair are a good size, more than enough to do your hair. Good quality hair. Highly recommend this seller."
+      ],
+      "prevalence_count": 738,
+      "prevalence_pct": 2.57
+    },
+    {
+      "topic_id": 6,
+      "label": "Price and value",
+      "auto_label": "Price & Value & Worth",
+      "named_by": "reviewed",
+      "top_words": [
+        "price",
+        "quality price",
+        "value",
+        "worth price",
+        "worth",
+        "price quality",
+        "beat",
+        "deal",
+        "value price",
+        "reasonable"
+      ],
+      "sample_reviews": [
+        "Good product, used to use Tylenol, this is great at a better price.",
+        "The price was great!! They were small but for the price they are great!!"
+      ],
+      "prevalence_count": 1656,
+      "prevalence_pct": 5.77
+    },
+    {
+      "topic_id": 7,
+      "label": "Age and years (\"5 year old\", \"a year\")",
+      "auto_label": "Old & Year & Son",
+      "named_by": "reviewed",
+      "top_words": [
+        "old",
+        "year",
+        "year old",
+        "son",
+        "toy",
+        "grandson",
+        "old grandson",
+        "old son",
+        "years",
+        "month"
+      ],
+      "sample_reviews": [
+        "Great Product. These petit fours are absolutely precious! My 2 and 5 year old love them!",
+        "Love It. We got this for our one year old and he loves it."
+      ],
+      "prevalence_count": 803,
+      "prevalence_pct": 2.8
+    },
+    {
+      "topic_id": 8,
+      "label": "Dogs, cats and pet supplies",
+      "auto_label": "Dog & Toy & Food",
+      "named_by": "reviewed",
+      "top_words": [
+        "dog",
+        "dogs",
+        "toy",
+        "food",
+        "treats",
+        "collar",
+        "cat",
+        "bed",
+        "chew",
+        "likes"
+      ],
+      "sample_reviews": [
+        "My dog love it, so I love it~ Its good for .... My dog love it,so I love it~ Its good for dental,really good.",
+        "Not for big dogs. My dog does really like this stuff. She\u2019s a larger dog though and one packet isn\u2019t enough in her food. It\u2019s too expensive when you have to give your dog 4 packets a day."
+      ],
+      "prevalence_count": 1088,
+      "prevalence_pct": 3.79
+    },
+    {
+      "topic_id": 9,
+      "label": "Worth the money or a waste",
+      "auto_label": "Money & Waste & Worth",
+      "named_by": "reviewed",
+      "top_words": [
+        "money",
+        "waste",
+        "waste money",
+        "worth",
+        "worth money",
+        "value",
+        "value money",
+        "cheap",
+        "broke",
+        "save money"
+      ],
+      "sample_reviews": [
+        "Don't waste your money. Awful. Lasted no time before shorting out. Phone would say it was charging but it wasn't. Don't waste your money!",
+        "WELL worth the money. The fitment was off alittle but You can\u2019t beat them for the money very good value"
+      ],
+      "prevalence_count": 1241,
+      "prevalence_pct": 4.32
+    },
+    {
+      "topic_id": 10,
+      "label": "Cute products (kids, baby, pets)",
+      "auto_label": "Cute & Daughter & Adorable",
+      "named_by": "reviewed",
+      "top_words": [
+        "cute",
+        "daughter",
+        "adorable",
+        "soft",
+        "cat",
+        "sturdy",
+        "birthday",
+        "baby",
+        "niece",
+        "stickers"
+      ],
+      "sample_reviews": [
+        "cute af. took a long time to come but it is so so cute i love it",
+        "Cute. I bought this size for my cats and it looks really cute on him!"
+      ],
+      "prevalence_count": 697,
+      "prevalence_pct": 2.43
+    },
+    {
+      "topic_id": 11,
+      "label": "Fit for cars and vehicles",
+      "auto_label": "Fit & Perfectly & Car",
+      "named_by": "reviewed",
+      "top_words": [
+        "fit",
+        "perfectly",
+        "perfect fit",
+        "fit perfectly",
+        "fits",
+        "car",
+        "fit perfect",
+        "cover",
+        "oem",
+        "tight"
+      ],
+      "sample_reviews": [
+        "Fit my 2008 Silverado. Perfect fit, same quality as OEM. Bought for a 4x4, and they fit.",
+        "Didn't fit. Not sure if it was lable right but did not fit my device."
+      ],
+      "prevalence_count": 966,
+      "prevalence_pct": 3.37
+    },
+    {
+      "topic_id": 12,
+      "label": "Screen protectors",
+      "auto_label": "Screen & Protector & Glass",
+      "named_by": "reviewed",
+      "top_words": [
+        "screen",
+        "protector",
+        "screen protector",
+        "protectors",
+        "screen protectors",
+        "glass",
+        "cracked",
+        "bubbles",
+        "cover",
+        "install"
+      ],
+      "sample_reviews": [
+        "Case is amazing! Screen protector not so much. I love the Spigen phone cases. I have had one for about 3 of my iPhones now and never once had a cracked screen. I really wanted the screen protector put on too but while I...",
+        "I am VERY happy with my new screen protector. I am VERY happy with my new screen protector. I finally have a screen without any air bubbles! :)"
+      ],
+      "prevalence_count": 562,
+      "prevalence_pct": 1.96
+    },
+    {
+      "topic_id": 13,
+      "label": "Gifts",
+      "auto_label": "Gift & Christmas & Daughter",
+      "named_by": "reviewed",
+      "top_words": [
+        "gift",
+        "christmas",
+        "daughter",
+        "christmas gift",
+        "gave",
+        "birthday",
+        "son",
+        "gave gift",
+        "grandson",
+        "perfect gift"
+      ],
+      "sample_reviews": [
+        "... gift for a coworker who's a drummer and he loved it!. I purchased this gift for a coworker who's a drummer and he loved it!",
+        "Purchased as a gift. They like it.. Purchased this as a gift for someone. They seem to like it."
+      ],
+      "prevalence_count": 982,
+      "prevalence_pct": 3.42
+    },
+    {
+      "topic_id": 14,
+      "label": "Size: too small or too big",
+      "auto_label": "Small & Size & Big",
+      "named_by": "reviewed",
+      "top_words": [
+        "small",
+        "size",
+        "big",
+        "large",
+        "bag",
+        "smaller",
+        "perfect size",
+        "bigger",
+        "larger",
+        "right"
+      ],
+      "sample_reviews": [
+        "Very small. I am not sure what these could be used for they are so very small.... they were all fine just very small ... I could not use them",
+        "Very small. Not what I expected to small to do what I wanted to do"
+      ],
+      "prevalence_count": 1591,
+      "prevalence_pct": 5.54
+    },
+    {
+      "topic_id": 15,
+      "label": "Looks and feel",
+      "auto_label": "Looks & Sturdy & Fits",
+      "named_by": "reviewed",
+      "top_words": [
+        "looks",
+        "sturdy",
+        "fits",
+        "look",
+        "picture",
+        "feels",
+        "beautiful",
+        "cover",
+        "looks feels",
+        "perfectly"
+      ],
+      "sample_reviews": [
+        "He named him Zaboomafu since he looks so much like him.. My son loves this! He named him Zaboomafu since he looks so much like him.",
+        "Love it. Love absolutely everything about me, worth the $ & looks so good in my dodge scatpack !!!"
+      ],
+      "prevalence_count": 1197,
+      "prevalence_pct": 4.17
+    },
+    {
+      "topic_id": 16,
+      "label": "Phones, chargers and batteries",
+      "auto_label": "Phone & Charge & Battery",
+      "named_by": "reviewed",
+      "top_words": [
+        "phone",
+        "phone case",
+        "charge",
+        "charger",
+        "battery",
+        "charging",
+        "fits",
+        "dropped",
+        "cover",
+        "holder"
+      ],
+      "sample_reviews": [
+        "Get this phone! Great price for a great phone!. So far it's been a great phone. The only thing that isn't spectacular is the battery, but it's not bad for such a big phone. Overall for the price it is an excellent...",
+        "Fits the 4s phone well... Fits the 4s phone well, bought it for my wife's phone and she likes it,, should protect the phone some if it gets dropped."
+      ],
+      "prevalence_count": 927,
+      "prevalence_pct": 3.23
+    },
+    {
+      "topic_id": 17,
+      "label": "Games, toys and fun for kids",
+      "auto_label": "Fun & Game & Kids",
+      "named_by": "reviewed",
+      "top_words": [
+        "fun",
+        "game",
+        "kids",
+        "play",
+        "toy",
+        "set",
+        "family",
+        "playing",
+        "cards",
+        "daughter"
+      ],
+      "sample_reviews": [
+        "So Much Fun. This is such a fun family game. We used toothpicks and it was very competitive for all ages. Lots of fun and so easy to play.",
+        "Fun fun fun. My only complaint is this. You have to be careful not to bend it. If you do. Game over !!"
+      ],
+      "prevalence_count": 1327,
+      "prevalence_pct": 4.62
+    },
+    {
+      "topic_id": 18,
+      "label": "Exactly as described",
+      "auto_label": "Exactly & Expected & Looking",
+      "named_by": "reviewed",
+      "top_words": [
+        "exactly",
+        "expected",
+        "looking",
+        "described",
+        "exactly looking",
+        "exactly described",
+        "exactly expected",
+        "fast",
+        "worked",
+        "advertised"
+      ],
+      "sample_reviews": [
+        "Exactly what I was looking for. For the price, I am so very happy! I was looking for a sheer curtain and this was exactly what I needed.",
+        "Exactly as described. The product is exactly how it is described. The color is exactly how it looks. I\u2019m happy with my purchase"
+      ],
+      "prevalence_count": 1522,
+      "prevalence_pct": 5.3
+    },
+    {
+      "topic_id": 19,
+      "label": "Colors and brightness",
+      "auto_label": "Color & Beautiful & Light",
+      "named_by": "reviewed",
+      "top_words": [
+        "color",
+        "beautiful",
+        "light",
+        "colors",
+        "bright",
+        "blue",
+        "red",
+        "ink",
+        "pink",
+        "weight"
+      ],
+      "sample_reviews": [
+        "I love the color of this color. I love the color of this color. It is a much brighter tone of purple than actually can with the tablet.",
+        "Pretty color.. This color is very pretty and mixes gorgeously with purple eyeshadow. quality product"
+      ],
+      "prevalence_count": 1928,
+      "prevalence_pct": 6.72
+    }
+  ],
+  "category_distribution": {
+    "0": {
+      "Automotive": 0.1961,
+      "Beauty_and_Personal_Care": 0.275,
+      "Cell_Phones_and_Accessories": 0.0838,
+      "Electronics": 0.2264,
+      "Health_and_Household": 0.3935,
+      "Home_and_Kitchen": 0.1873,
+      "Office_Products": 0.1784,
+      "Pet_Supplies": 0.149,
+      "Sports_and_Outdoors": 0.2192,
+      "Toys_and_Games": 0.0756
+    },
+    "1": {
+      "Automotive": 0.0102,
+      "Beauty_and_Personal_Care": 0.0067,
+      "Cell_Phones_and_Accessories": 0.1785,
+      "Electronics": 0.0572,
+      "Health_and_Household": 0.0101,
+      "Home_and_Kitchen": 0.0118,
+      "Office_Products": 0.0091,
+      "Pet_Supplies": 0.0052,
+      "Sports_and_Outdoors": 0.0149,
+      "Toys_and_Games": 0.0076
+    },
+    "2": {
+      "Automotive": 0.136,
+      "Beauty_and_Personal_Care": 0.0464,
+      "Cell_Phones_and_Accessories": 0.0532,
+      "Electronics": 0.0725,
+      "Health_and_Household": 0.0609,
+      "Home_and_Kitchen": 0.0848,
+      "Office_Products": 0.059,
+      "Pet_Supplies": 0.0461,
+      "Sports_and_Outdoors": 0.078,
+      "Toys_and_Games": 0.0287
+    },
+    "3": {
+      "Automotive": 0.0562,
+      "Beauty_and_Personal_Care": 0.0372,
+      "Cell_Phones_and_Accessories": 0.037,
+      "Electronics": 0.0858,
+      "Health_and_Household": 0.0425,
+      "Home_and_Kitchen": 0.0643,
+      "Office_Products": 0.0845,
+      "Pet_Supplies": 0.0399,
+      "Sports_and_Outdoors": 0.0735,
+      "Toys_and_Games": 0.0435
+    },
+    "4": {
+      "Automotive": 0.0657,
+      "Beauty_and_Personal_Care": 0.0404,
+      "Cell_Phones_and_Accessories": 0.0303,
+      "Electronics": 0.0377,
+      "Health_and_Household": 0.0386,
+      "Home_and_Kitchen": 0.0678,
+      "Office_Products": 0.0593,
+      "Pet_Supplies": 0.0392,
+      "Sports_and_Outdoors": 0.052,
+      "Toys_and_Games": 0.0459
+    },
+    "5": {
+      "Automotive": 0.0028,
+      "Beauty_and_Personal_Care": 0.1911,
+      "Cell_Phones_and_Accessories": 0.0011,
+      "Electronics": 0.0017,
+      "Health_and_Household": 0.0258,
+      "Home_and_Kitchen": 0.0083,
+      "Office_Products": 0.0021,
+      "Pet_Supplies": 0.0172,
+      "Sports_and_Outdoors": 0.0052,
+      "Toys_and_Games": 0.0031
+    },
+    "6": {
+      "Automotive": 0.0639,
+      "Beauty_and_Personal_Care": 0.0499,
+      "Cell_Phones_and_Accessories": 0.0352,
+      "Electronics": 0.0841,
+      "Health_and_Household": 0.0655,
+      "Home_and_Kitchen": 0.0594,
+      "Office_Products": 0.0747,
+      "Pet_Supplies": 0.0392,
+      "Sports_and_Outdoors": 0.0663,
+      "Toys_and_Games": 0.039
+    },
+    "7": {
+      "Automotive": 0.0186,
+      "Beauty_and_Personal_Care": 0.0126,
+      "Cell_Phones_and_Accessories": 0.0049,
+      "Electronics": 0.0241,
+      "Health_and_Household": 0.0251,
+      "Home_and_Kitchen": 0.0233,
+      "Office_Products": 0.0202,
+      "Pet_Supplies": 0.0292,
+      "Sports_and_Outdoors": 0.0284,
+      "Toys_and_Games": 0.0922
+    },
+    "8": {
+      "Automotive": 0.0028,
+      "Beauty_and_Personal_Care": 0.0077,
+      "Cell_Phones_and_Accessories": 0.0011,
+      "Electronics": 0.0014,
+      "Health_and_Household": 0.0143,
+      "Home_and_Kitchen": 0.009,
+      "Office_Products": 0.0035,
+      "Pet_Supplies": 0.322,
+      "Sports_and_Outdoors": 0.008,
+      "Toys_and_Games": 0.0052
+    },
+    "9": {
+      "Automotive": 0.0485,
+      "Beauty_and_Personal_Care": 0.046,
+      "Cell_Phones_and_Accessories": 0.0306,
+      "Electronics": 0.0412,
+      "Health_and_Household": 0.0498,
+      "Home_and_Kitchen": 0.0403,
+      "Office_Products": 0.0541,
+      "Pet_Supplies": 0.043,
+      "Sports_and_Outdoors": 0.0382,
+      "Toys_and_Games": 0.0407
+    },
+    "10": {
+      "Automotive": 0.0042,
+      "Beauty_and_Personal_Care": 0.0221,
+      "Cell_Phones_and_Accessories": 0.0183,
+      "Electronics": 0.0049,
+      "Health_and_Household": 0.0094,
+      "Home_and_Kitchen": 0.0306,
+      "Office_Products": 0.0353,
+      "Pet_Supplies": 0.0303,
+      "Sports_and_Outdoors": 0.0097,
+      "Toys_and_Games": 0.0773
+    },
+    "11": {
+      "Automotive": 0.1268,
+      "Beauty_and_Personal_Care": 0.006,
+      "Cell_Phones_and_Accessories": 0.0229,
+      "Electronics": 0.0307,
+      "Health_and_Household": 0.0223,
+      "Home_and_Kitchen": 0.0306,
+      "Office_Products": 0.0154,
+      "Pet_Supplies": 0.0258,
+      "Sports_and_Outdoors": 0.0454,
+      "Toys_and_Games": 0.0114
+    },
+    "12": {
+      "Automotive": 0.006,
+      "Beauty_and_Personal_Care": 0.0046,
+      "Cell_Phones_and_Accessories": 0.1169,
+      "Electronics": 0.0408,
+      "Health_and_Household": 0.0056,
+      "Home_and_Kitchen": 0.0056,
+      "Office_Products": 0.0042,
+      "Pet_Supplies": 0.0038,
+      "Sports_and_Outdoors": 0.0049,
+      "Toys_and_Games": 0.0048
+    },
+    "13": {
+      "Automotive": 0.0091,
+      "Beauty_and_Personal_Care": 0.0249,
+      "Cell_Phones_and_Accessories": 0.0144,
+      "Electronics": 0.0262,
+      "Health_and_Household": 0.0258,
+      "Home_and_Kitchen": 0.041,
+      "Office_Products": 0.0328,
+      "Pet_Supplies": 0.0086,
+      "Sports_and_Outdoors": 0.0375,
+      "Toys_and_Games": 0.1208
+    },
+    "14": {
+      "Automotive": 0.0341,
+      "Beauty_and_Personal_Care": 0.0316,
+      "Cell_Phones_and_Accessories": 0.0141,
+      "Electronics": 0.0419,
+      "Health_and_Household": 0.0599,
+      "Home_and_Kitchen": 0.0859,
+      "Office_Products": 0.0653,
+      "Pet_Supplies": 0.0836,
+      "Sports_and_Outdoors": 0.0923,
+      "Toys_and_Games": 0.0445
+    },
+    "15": {
+      "Automotive": 0.0692,
+      "Beauty_and_Personal_Care": 0.0256,
+      "Cell_Phones_and_Accessories": 0.0394,
+      "Electronics": 0.0345,
+      "Health_and_Household": 0.0202,
+      "Home_and_Kitchen": 0.0751,
+      "Office_Products": 0.0457,
+      "Pet_Supplies": 0.0292,
+      "Sports_and_Outdoors": 0.0531,
+      "Toys_and_Games": 0.0252
+    },
+    "16": {
+      "Automotive": 0.0102,
+      "Beauty_and_Personal_Care": 0.0032,
+      "Cell_Phones_and_Accessories": 0.213,
+      "Electronics": 0.0509,
+      "Health_and_Household": 0.0077,
+      "Home_and_Kitchen": 0.0035,
+      "Office_Products": 0.0185,
+      "Pet_Supplies": 0.0017,
+      "Sports_and_Outdoors": 0.0111,
+      "Toys_and_Games": 0.0055
+    },
+    "17": {
+      "Automotive": 0.0109,
+      "Beauty_and_Personal_Care": 0.0133,
+      "Cell_Phones_and_Accessories": 0.0092,
+      "Electronics": 0.0296,
+      "Health_and_Household": 0.0258,
+      "Home_and_Kitchen": 0.0212,
+      "Office_Products": 0.0321,
+      "Pet_Supplies": 0.0251,
+      "Sports_and_Outdoors": 0.043,
+      "Toys_and_Games": 0.2496
+    },
+    "18": {
+      "Automotive": 0.0657,
+      "Beauty_and_Personal_Care": 0.0436,
+      "Cell_Phones_and_Accessories": 0.0433,
+      "Electronics": 0.0666,
+      "Health_and_Household": 0.0519,
+      "Home_and_Kitchen": 0.0608,
+      "Office_Products": 0.0768,
+      "Pet_Supplies": 0.0316,
+      "Sports_and_Outdoors": 0.0558,
+      "Toys_and_Games": 0.0345
+    },
+    "19": {
+      "Automotive": 0.0629,
+      "Beauty_and_Personal_Care": 0.112,
+      "Cell_Phones_and_Accessories": 0.0532,
+      "Electronics": 0.0419,
+      "Health_and_Household": 0.0456,
+      "Home_and_Kitchen": 0.0893,
+      "Office_Products": 0.1291,
+      "Pet_Supplies": 0.0303,
+      "Sports_and_Outdoors": 0.0635,
+      "Toys_and_Games": 0.0449
+    }
+  },
+  "sentiment_distribution": {
+    "0": {
+      "negative": 0.307,
+      "neutral": 0.2693,
+      "positive": 0.1671
+    },
+    "1": {
+      "negative": 0.0252,
+      "neutral": 0.035,
+      "positive": 0.0318
+    },
+    "2": {
+      "negative": 0.0215,
+      "neutral": 0.0355,
+      "positive": 0.0795
+    },
+    "3": {
+      "negative": 0.0636,
+      "neutral": 0.0586,
+      "positive": 0.0546
+    },
+    "4": {
+      "negative": 0.0039,
+      "neutral": 0.011,
+      "positive": 0.061
+    },
+    "5": {
+      "negative": 0.0232,
+      "neutral": 0.0269,
+      "positive": 0.0262
+    },
+    "6": {
+      "negative": 0.024,
+      "neutral": 0.0542,
+      "positive": 0.0656
+    },
+    "7": {
+      "negative": 0.0234,
+      "neutral": 0.0226,
+      "positive": 0.0295
+    },
+    "8": {
+      "negative": 0.0324,
+      "neutral": 0.0355,
+      "positive": 0.0394
+    },
+    "9": {
+      "negative": 0.1218,
+      "neutral": 0.0312,
+      "positive": 0.0268
+    },
+    "10": {
+      "negative": 0.0109,
+      "neutral": 0.0259,
+      "positive": 0.0271
+    },
+    "11": {
+      "negative": 0.039,
+      "neutral": 0.0374,
+      "positive": 0.0321
+    },
+    "12": {
+      "negative": 0.0301,
+      "neutral": 0.025,
+      "positive": 0.0167
+    },
+    "13": {
+      "negative": 0.0201,
+      "neutral": 0.0163,
+      "positive": 0.0391
+    },
+    "14": {
+      "negative": 0.0646,
+      "neutral": 0.0946,
+      "positive": 0.0496
+    },
+    "15": {
+      "negative": 0.032,
+      "neutral": 0.0422,
+      "positive": 0.0438
+    },
+    "16": {
+      "negative": 0.0402,
+      "neutral": 0.035,
+      "positive": 0.0303
+    },
+    "17": {
+      "negative": 0.0295,
+      "neutral": 0.0408,
+      "positive": 0.0505
+    },
+    "18": {
+      "negative": 0.0291,
+      "neutral": 0.037,
+      "positive": 0.0599
+    },
+    "19": {
+      "negative": 0.0586,
+      "neutral": 0.0658,
+      "positive": 0.0692
+    }
+  }
+}

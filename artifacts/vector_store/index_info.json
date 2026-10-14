@@ -1,0 +1,56 @@
+{
+  "built_at": "2026-10-12T04:21:48+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "index_type": "IndexFlatIP (exact cosine similarity on L2-normalised vectors)",
+  "eligible_reviews": 29926,
+  "indexed_reviews": 29926,
+  "coverage_pct": 100.0,
+  "limited_by": null,
+  "max_samples_requested": null,
+  "source_file": "reviews_all.parquet",
+  "source_rows": 29946,
+  "eligible_ids_md5": "f7758ec63d28f6c35768fb6b91b010a0",
+  "per_category": {
+    "Automotive": {
+      "eligible": 2989,
+      "indexed": 2989
+    },
+    "Beauty_and_Personal_Care": {
+      "eligible": 2991,
+      "indexed": 2991
+    },
+    "Cell_Phones_and_Accessories": {
+      "eligible": 2993,
+      "indexed": 2993
+    },
+    "Electronics": {
+      "eligible": 2991,
+      "indexed": 2991
+    },
+    "Health_and_Household": {
+      "eligible": 2997,
+      "indexed": 2997
+    },
+    "Home_and_Kitchen": {
+      "eligible": 2994,
+      "indexed": 2994
+    },
+    "Office_Products": {
+      "eligible": 2992,
+      "indexed": 2992
+    },
+    "Pet_Supplies": {
+      "eligible": 2991,
+      "indexed": 2991
+    },
+    "Sports_and_Outdoors": {
+      "eligible": 2996,
+      "indexed": 2996
+    },
+    "Toys_and_Games": {
+      "eligible": 2992,
+      "indexed": 2992
+    }
+  }
+}

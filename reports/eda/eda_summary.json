@@ -1,0 +1,27 @@
+{
+  "total_reviews": 29946,
+  "total_products": 26360,
+  "total_users": 17323,
+  "date_min": "2000-05-20",
+  "date_max": "2023-09-09",
+  "length_stats": {
+    "min_length": 0.0,
+    "mean_length": 218.9,
+    "median_length": 116.0,
+    "max_length": 9181.0,
+    "empty_text_count": 5.0,
+    "long_text_count": 204.0
+  },
+  "helpful_stats": {
+    "reviews_with_helpful_votes": 7131.0,
+    "pct_with_helpful_votes": 23.81,
+    "max_helpful_votes": 1543.0,
+    "avg_helpful_votes": 1.2
+  },
+  "meta_stats": {
+    "reviews_with_product_title": 0.0,
+    "product_title_coverage_pct": 0.0,
+    "reviews_with_product_price": 0.0,
+    "product_price_coverage_pct": 0.0
+  }
+}

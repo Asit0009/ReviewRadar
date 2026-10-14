@@ -1,0 +1,225 @@
+{
+  "reviews": 29946,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "configs": {
+    "v1: 14 topics, 20,000 features, min_df 5 (first version)": {
+      "topics": 14,
+      "runs": [
+        {
+          "biggest_topic_pct": 34.2,
+          "npmi": 0.141,
+          "distinct_words": 0.75,
+          "weak_pct": 31.0
+        },
+        {
+          "biggest_topic_pct": 34.4,
+          "npmi": 0.143,
+          "distinct_words": 0.771,
+          "weak_pct": 30.9
+        },
+        {
+          "biggest_topic_pct": 34.1,
+          "npmi": 0.141,
+          "distinct_words": 0.75,
+          "weak_pct": 31.0
+        }
+      ],
+      "biggest_topic_pct": {
+        "mean": 34.233,
+        "min": 34.1,
+        "max": 34.4
+      },
+      "npmi": {
+        "mean": 0.142,
+        "min": 0.141,
+        "max": 0.143
+      },
+      "distinct_words": {
+        "mean": 0.757,
+        "min": 0.75,
+        "max": 0.771
+      },
+      "weak_pct": {
+        "mean": 30.967,
+        "min": 30.9,
+        "max": 31.0
+      }
+    },
+    "20 topics, same words as v1": {
+      "topics": 20,
+      "runs": [
+        {
+          "biggest_topic_pct": 25.3,
+          "npmi": 0.131,
+          "distinct_words": 0.725,
+          "weak_pct": 41.5
+        },
+        {
+          "biggest_topic_pct": 25.9,
+          "npmi": 0.127,
+          "distinct_words": 0.715,
+          "weak_pct": 41.1
+        },
+        {
+          "biggest_topic_pct": 24.3,
+          "npmi": 0.123,
+          "distinct_words": 0.735,
+          "weak_pct": 41.2
+        }
+      ],
+      "biggest_topic_pct": {
+        "mean": 25.167,
+        "min": 24.3,
+        "max": 25.9
+      },
+      "npmi": {
+        "mean": 0.127,
+        "min": 0.123,
+        "max": 0.131
+      },
+      "distinct_words": {
+        "mean": 0.725,
+        "min": 0.715,
+        "max": 0.735
+      },
+      "weak_pct": {
+        "mean": 41.267,
+        "min": 41.1,
+        "max": 41.5
+      }
+    },
+    "30 topics, same words as v1": {
+      "topics": 30,
+      "runs": [
+        {
+          "biggest_topic_pct": 12.6,
+          "npmi": 0.124,
+          "distinct_words": 0.713,
+          "weak_pct": 49.2
+        },
+        {
+          "biggest_topic_pct": 11.3,
+          "npmi": 0.13,
+          "distinct_words": 0.71,
+          "weak_pct": 49.2
+        },
+        {
+          "biggest_topic_pct": 9.8,
+          "npmi": 0.127,
+          "distinct_words": 0.723,
+          "weak_pct": 50.3
+        }
+      ],
+      "biggest_topic_pct": {
+        "mean": 11.233,
+        "min": 9.8,
+        "max": 12.6
+      },
+      "npmi": {
+        "mean": 0.127,
+        "min": 0.124,
+        "max": 0.13
+      },
+      "distinct_words": {
+        "mean": 0.715,
+        "min": 0.71,
+        "max": 0.723
+      },
+      "weak_pct": {
+        "mean": 49.567,
+        "min": 49.2,
+        "max": 50.3
+      }
+    },
+    "14 topics + extra filler stop words (rejected)": {
+      "topics": 14,
+      "runs": [
+        {
+          "biggest_topic_pct": 40.4,
+          "npmi": 0.151,
+          "distinct_words": 0.8,
+          "weak_pct": 26.5
+        },
+        {
+          "biggest_topic_pct": 42.3,
+          "npmi": 0.151,
+          "distinct_words": 0.786,
+          "weak_pct": 26.1
+        },
+        {
+          "biggest_topic_pct": 42.3,
+          "npmi": 0.151,
+          "distinct_words": 0.786,
+          "weak_pct": 26.0
+        }
+      ],
+      "biggest_topic_pct": {
+        "mean": 41.667,
+        "min": 40.4,
+        "max": 42.3
+      },
+      "npmi": {
+        "mean": 0.151,
+        "min": 0.151,
+        "max": 0.151
+      },
+      "distinct_words": {
+        "mean": 0.791,
+        "min": 0.786,
+        "max": 0.8
+      },
+      "weak_pct": {
+        "mean": 26.2,
+        "min": 26.0,
+        "max": 26.5
+      }
+    },
+    "20 topics + praise stop words + min_df 20 (adopted)": {
+      "topics": 20,
+      "runs": [
+        {
+          "biggest_topic_pct": 23.0,
+          "npmi": 0.138,
+          "distinct_words": 0.765,
+          "weak_pct": 39.5
+        },
+        {
+          "biggest_topic_pct": 25.7,
+          "npmi": 0.139,
+          "distinct_words": 0.73,
+          "weak_pct": 41.3
+        },
+        {
+          "biggest_topic_pct": 24.5,
+          "npmi": 0.14,
+          "distinct_words": 0.725,
+          "weak_pct": 40.0
+        }
+      ],
+      "biggest_topic_pct": {
+        "mean": 24.4,
+        "min": 23.0,
+        "max": 25.7
+      },
+      "npmi": {
+        "mean": 0.139,
+        "min": 0.138,
+        "max": 0.14
+      },
+      "distinct_words": {
+        "mean": 0.74,
+        "min": 0.725,
+        "max": 0.765
+      },
+      "weak_pct": {
+        "mean": 40.267,
+        "min": 39.5,
+        "max": 41.3
+      }
+    }
+  }
+}
